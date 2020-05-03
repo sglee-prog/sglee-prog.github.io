@@ -5,7 +5,7 @@ const IMG_NUMBER = 5;
 
 function getImage(number){
     const image = new Image();
-    image.src = `./images/${number+1}.jpg`
+    image.src = `./${number+1}.jpg`
     image.classList.add("bgImage");
     body.prepend(image);
 }
